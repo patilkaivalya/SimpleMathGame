@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/yj"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:text="Congratulations!!"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#DD2C00"
+            android:textSize="26sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textViewScoreResult"
+            android:layout_width="243dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Score: 0"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonPlayAgain"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:text="play again"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.ExtraSmall" />
+
+            <Button
+                android:id="@+id/buttonExit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:text="exit"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.ExtraSmall" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MathGame" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/greena</item>
+        <item name="colorOnPrimary">@color/greena</item>
+        <item name="colorPrimaryVariant">@color/iceblue</item>
+
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorOnSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/iceblue</item>
+    </style>
+
+    <style name="Theme.MathGame" parent="Base.Theme.MathGame" />
+</resources>
